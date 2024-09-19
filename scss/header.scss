@@ -2,3 +2,16 @@
 
 
 // styles
+.header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header__container{
+    display: flex;  
+    align-items: center;
+}
+
+.header-link{
+    display: flex;
+}
