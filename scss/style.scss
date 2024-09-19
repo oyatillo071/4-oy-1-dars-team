@@ -1,0 +1,41 @@
+@import './variables.scss';
+@import '../style/font.css';
+@import '../style/normalize.css';
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: $main-font-family;
+}
+
+a{
+    color: $main-link-green;
+    text-decoration-color:$main-link-green ;
+    font-family:$main-disc-family;
+    font-size: 14px;
+    font-weight: 400;
+    line-height:1.36;
+    text-align: left;
+    
+}
+button,input[button]{
+padding: $btn-padding;
+font-family: $main-font-family;
+color:$main-dark-color;
+font-weight:700 ;
+}
